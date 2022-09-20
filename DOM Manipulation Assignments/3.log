@@ -1,0 +1,41 @@
+// Selecting parent element for appending new element
+
+undefined
+const parentNavElement = document.querySelector(".accordion-homepage");
+
+undefined
+// creating section container for list item
+
+undefined
+const section = document.createElement("section");
+
+undefined
+section.className = "parent";
+
+'parent'
+// creating inner h3 tag for text
+
+undefined
+const h3 = document.createElement("h3");
+
+undefined
+h3.textContent = "My New FAQ";
+
+'My New FAQ'
+// adding h3 into section container
+
+undefined
+section.appendChild(h3);
+<h3>​My New FAQ​</h3>​
+
+VM735:2 Uncaught SyntaxError: Unexpected token '<'
+section.appendChild(h3);
+<h3>​My New FAQ​</h3>​
+section
+<section class=​"parent">​…​</section>​
+// adding section container into parentNavElement
+
+undefined
+parentNavElement.appendChild(section);
+
+<section class=​"parent">​…​</section>​

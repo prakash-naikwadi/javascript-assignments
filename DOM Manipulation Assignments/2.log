@@ -1,0 +1,17 @@
+const element = document.querySelectorAll(".as-imagegrid .row .as-imagegrid-item-title");
+=> undefined
+
+element
+=> NodeList(7) [span.as-imagegrid-item-title, span.as-imagegrid-item-title, span.as-imagegrid-item-title, span.as-imagegrid-item-title, span.as-imagegrid-item-title, span.as-imagegrid-item-title, span.as-imagegrid-item-title]0: span.as-imagegrid-item-title1: span.as-imagegrid-item-title2: span.as-imagegrid-item-title3: span.as-imagegrid-item-title4: span.as-imagegrid-item-title5: span.as-imagegrid-item-title6: span.as-imagegrid-item-titlelength: 7[[Prototype]]: NodeList
+
+const elementArray = Array.from(element);
+=> undefined
+
+elementArray[0].childNodes[0].textContent
+=> 'iPhone '
+
+const productList = elementArray.map(item => item.childNodes[0].textContent);
+=> undefined
+
+productList
+=> (7) ['iPhone ', 'Mac ', 'iPad ', 'Watch ', 'AirPods ', 'Music ', 'TV ']0: "iPhone "1: "Mac "2: "iPad "3: "Watch "4: "AirPods "5: "Music "6: "TV "length: 7[[Prototype]]: Array(0)

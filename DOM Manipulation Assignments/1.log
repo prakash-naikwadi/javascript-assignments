@@ -1,0 +1,8 @@
+const heading = document.querySelector(".side-bar .crayons-card .crayons-subtitle-2");
+undefined
+heading.innerText = "Prakash";
+'Prakash'
+const paragraph = document.querySelector(".side-bar .crayons-card p");
+undefined
+paragraph.innerText = "I Write Code";
+'I Write Code'
