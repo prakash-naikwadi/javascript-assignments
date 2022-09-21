@@ -1,0 +1,36 @@
+#canvas {
+  background-color: rgb(109, 212, 81);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  max-width: 650px;
+  height: 450px;
+  margin: 50px auto 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.35s;
+}
+
+#button {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 50px auto 50px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: black;
+  border-radius: 5px;
+  border-style: none;
+  display: block;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+#button:hover {
+  background: #0000009b;
+}
