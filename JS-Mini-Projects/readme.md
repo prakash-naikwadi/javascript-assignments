@@ -24,6 +24,7 @@ These are projects given us as an assignment into **"JavaScript Full Stack Web D
 
 ![Screenshot](./images/screenshot01.png?raw=true "Template Screenshot")
 
+
 ## 🛑 Project 02. Name Conversion 🛑
 
 ### 📌 **Live Site URL:** <a href="https://name-conversion-js-02.netlify.app/">**Visit Now** 🚀</a>
@@ -35,6 +36,7 @@ These are projects given us as an assignment into **"JavaScript Full Stack Web D
 <br>
 
 ![Screenshot](./images/screenshot02.png?raw=true "Template Screenshot")
+
 
 ## 🛑 Project 03. Color Changer 🛑
 
@@ -48,6 +50,70 @@ These are projects given us as an assignment into **"JavaScript Full Stack Web D
 
 ![Screenshot](./images/screenshot03.png?raw=true "Template Screenshot")
 
+
+## 🛑 Project 04. Password Generator 🛑
+
+### 📌 **Live Site URL:** <a href="https://password-generator-js-04.netlify.app/">**Visit Now** 🚀</a>
+
+<br>
+
+## 📌 Overview
+
+<br>
+
+![Screenshot](./images/screenshot04.png?raw=true "Template Screenshot")
+
+
+## 🛑 Project 05. Rock Paper Scissor 🛑
+
+### 📌 **Live Site URL:** <a href="https://rock-paper-scissor-js-05.netlify.app/">**Visit Now** 🚀</a>
+
+<br>
+
+## 📌 Overview
+
+<br>
+
+![Screenshot](./images/screenshot05.png?raw=true "Template Screenshot")
+
+
+## 🛑 Project 06. Jokes Generator 🛑
+
+### 📌 **Live Site URL:** <a href="https://jokes-generator-js-06.netlify.app/">**Visit Now** 🚀</a>
+
+<br>
+
+## 📌 Overview
+
+<br>
+
+![Screenshot](./images/screenshot06.png?raw=true "Template Screenshot")
+
+
+## 🛑 Project 07. QR Code Generator 🛑
+
+### 📌 **Live Site URL:** <a href="https://qr-code-generator-js-07.netlify.app/">**Visit Now** 🚀</a>
+
+<br>
+
+## 📌 Overview
+
+<br>
+
+![Screenshot](./images/screenshot07.png?raw=true "Template Screenshot")
+
+
+## 🛑 Project 08. Age Calculator 🛑
+
+### 📌 **Live Site URL:** <a href="https://age-calculator-js-project.netlify.app/">**Visit Now** 🚀</a>
+
+<br>
+
+## 📌 Overview
+
+<br>
+
+![Screenshot](./images/screenshot08.png?raw=true "Template Screenshot")
 
 ## 📬 Connect With Me
 
