@@ -3,7 +3,6 @@
 These are projects given us as an assignment into **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5, CSS3 and JavaScript**.
 
 <br>
-<br>
 
 ## 📌 Tech Stack
 
@@ -13,9 +12,33 @@ These are projects given us as an assignment into **"JavaScript Full Stack Web D
 <br>
 <br>
 
-## 🛑 01. Accordion 🛑
+## 🛑 Project 01. Accordion 🛑
 
-### 📌 **Live Site URL:** <a href="">**Visit Now** 🚀</a>
+### 📌 **Live Site URL:** <a href="https://accordion-js-01.netlify.app/">**Visit Now** 🚀</a>
+
+<br>
+
+### 📌 Overview
+
+<br>
+
+![Screenshot](./images/screenshot01.png?raw=true "Template Screenshot")
+
+## 🛑 Project 02. Name Conversion 🛑
+
+### 📌 **Live Site URL:** <a href="https://name-conversion-js-02.netlify.app/">**Visit Now** 🚀</a>
+
+<br>
+
+### 📌 Overview
+
+<br>
+
+![Screenshot](./images/screenshot02.png?raw=true "Template Screenshot")
+
+## 🛑 Project 03. Color Changer 🛑
+
+### 📌 **Live Site URL:** <a href="https://color-changer-js-03.netlify.app/">**Visit Now** 🚀</a>
 
 <br>
 
@@ -23,22 +46,8 @@ These are projects given us as an assignment into **"JavaScript Full Stack Web D
 
 <br>
 
-![Screenshot](./images/screenshot.png?raw=true "Template Screenshot")
+![Screenshot](./images/screenshot03.png?raw=true "Template Screenshot")
 
-## 📌 My process
-
-- I joined a bootcamp **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**.<a href="https://ineuron.ai/"> **Check🚀 (Not Sponsered)**</a>
-- This project is given us as assignment.
-- It took me about **2 hours** to complete this project.
-- I have started coding this project on 29-07-2022 at 5.10pm and finished at 7.10pm.
-
-## 📌 What I Learn
-
-👉 learn about `transform:scale(1.1)` property.  
-👉 Learn about adding some animations using the `transition` property on the hover effect.  
-👉 Learn a new call to action section design and implemented it.  
-👉 placed elements using flex and width properties.  
-👉 How to develop full fledge landing page.
 
 ## 📬 Connect With Me
 
