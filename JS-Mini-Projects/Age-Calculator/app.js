@@ -58,16 +58,16 @@ function getAge(birthDate) {
   // console.log(ageDiff);
 
   // if birth date is entered future
-  if (ageDiff.month) {
-    error[0].style.display = "block";
-    // console.log("error");
-    yearsEl.textContent = "";
-    monthsEl.textContent = "";
-    daysEl.textContent = "";
-    return;
-  } else {
-    error[0].style.display = "none";
-  }
+  // if (ageDiff.month) {
+  //   error[0].style.display = "block";
+  //   // console.log("error");
+  //   yearsEl.textContent = "";
+  //   monthsEl.textContent = "";
+  //   daysEl.textContent = "";
+  //   return;
+  // } else {
+  //   error[0].style.display = "none";
+  // }
 
   return ageDiff;
 }
