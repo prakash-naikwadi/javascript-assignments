@@ -13,13 +13,11 @@ These are projects given us as an assignment into **"JavaScript Full Stack Web D
 <br>
 <br>
 
-## 🛑  01. Accordion 🛑
+## 🛑 01. Accordion 🛑
 
-### 📌 **Live Site URL:** <a href="https://saas-landing-page-0013.netlify.app/">**Visit Now** 🚀</a>
+### 📌 **Live Site URL:** <a href="">**Visit Now** 🚀</a>
 
 <br>
-
-
 
 ## 📌 Overview
 
