@@ -103,18 +103,6 @@ These are projects given us as an assignment into **"JavaScript Full Stack Web D
 ![Screenshot](./images/screenshot07.png?raw=true "Template Screenshot")
 
 
-## 🛑 Project 08. Age Calculator 🛑
-
-### 📌 **Live Site URL:** <a href="https://age-calculator-js-project.netlify.app/">**Visit Now** 🚀</a>
-
-<br>
-
-## 📌 Overview
-
-<br>
-
-![Screenshot](./images/screenshot08.png?raw=true "Template Screenshot")
-
 ## 📬 Connect With Me
 
 - **LinkedIn** - [Prakash Naikwadi](https://www.linkedin.com/in/prakash-naikwadi/)
