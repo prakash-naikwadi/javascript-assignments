@@ -1,0 +1,111 @@
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Reset Font Weights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: lightgrey;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* width: 600px; */
+  /* margin: auto auto; */
+  /* padding: 4rem; */
+}
+
+.calculations-div {
+  padding: 1.8rem;
+}
+
+.calculations-history {
+  font-size: 1.6rem;
+}
+
+.screen {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+/* all buttons */
+
+.btns-div {
+  padding: 1.8rem;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.row1,
+.row2 {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgba(147, 147, 238, 0.73);
+}
+
+.equals-btn {
+  height: 100%;
+}
+
+.fa-divide {
+  /* color: red; */
+}

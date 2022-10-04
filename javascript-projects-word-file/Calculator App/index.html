@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- scripts -->
+  <script src="./app.js" defer></script>
+
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- dark & white mode buttons -->
+    <div class="mode-btns"></div>
+
+    <!-- result div -->
+    <div class="calculations-div">
+      <div class="calculations-history" style="display: none">
+        <span class="first-number">308</span>
+        <span class="operator">x</span>
+        <span class="second-number">42</span>
+      </div>
+      <div class="screen">&nbsp;</div>
+    </div>
+
+    <!-- All buttons -->
+    <div class="btns-div">
+      <div class="top-section">
+        <div class="row operators">
+          <button class="btn plus-btn operator-btn">+</button>
+          <button class="btn minus-btn operator-btn">-</button>
+          <button class="btn mod-btn operator-btn"> * </button>
+          <button class="btn divide-btn operator-btn">
+            /
+          </button>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="left-btns">
+          <div class="row numbers">
+            <button class="btn number-btn">7</button>
+            <button class="btn number-btn">8</button>
+            <button class="btn number-btn">9</button>
+          </div>
+          <div class="row numbers">
+            <button class="btn number-btn">4</button>
+            <button class="btn number-btn">5</button>
+            <button class="btn number-btn">6</button>
+          </div>
+          <div class="row numbers">
+            <button class="btn number-btn">1</button>
+            <button class="btn number-btn">2</button>
+            <button class="btn number-btn">3</button>
+          </div>
+          <div class="row numbers">
+            <button class="btn number-btn">0</button>
+            <button class="btn dot-btn">.</button>
+            <button class="btn clear-btn">C</button>
+          </div>
+        </div>
+        <div class="right-btns">
+          <button id="equal" class="btn equals-btn">=</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
