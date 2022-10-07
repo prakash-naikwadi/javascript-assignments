@@ -12,18 +12,15 @@
   <!-- scripts -->
   <script src="./app.js" defer></script>
 
-  <title>Countdown App</title>
+  <title>Word Counter App</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="input">
-      <input type="text" class="user-input">
-    </div>
-    <div class="timer">
-      <span class="minutes">00</span> : <span class="tens">00</span>
-    </div>
-    <button class="start-btn">Start</button>
+    <h1>Word Counter</h1>
+    <label for="textarea">Enter some text below:</label>
+    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+    <div id="stat">You've written 0 words and 0 characters.</div>
   </div>
 </body>
 
