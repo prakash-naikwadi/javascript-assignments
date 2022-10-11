@@ -9,6 +9,11 @@
   <!-- stylesheets -->
   <link rel="stylesheet" href="./style.css">
 
+  <!-- Bootstrap Links -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
   <!-- scripts -->
   <script src="./app.js" defer></script>
 
@@ -16,14 +21,17 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="input">
-      <input type="text" class="user-input">
+  <div class="container d-flex flex-column gap-4 position-absolute top-50 start-50 translate-middle">
+    <h1 class="text-center">Countdown Timer</h1>
+    <div class="input d-flex justify-content-center">
+      <input type="text" placeholder="Enter Time" class="user-input form-control" style="width: 50%;">
     </div>
-    <div class="timer">
-      <span class="minutes">00</span> : <span class="tens">00</span>
+    <div class="timer text-center">
+      <span class="minutes h1">00</span> : <span class="tens h1">00</span>
     </div>
-    <button class="start-btn">Start</button>
+    <div class="text-center">
+      <button class="start-btn btn btn-success" style="width: 10%;">Start</button>
+    </div>
   </div>
 </body>
 

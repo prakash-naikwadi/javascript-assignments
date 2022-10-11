@@ -8,6 +8,7 @@ let seconds = 0;
 
 const startButton = document.querySelector(".start-btn");
 const stopButton = document.querySelector(".stop-btn");
+const resetButton = document.querySelector(".reset-btn");
 
 startButton.addEventListener("click", () => {
   clearInterval(interval);
@@ -42,3 +43,9 @@ const startTimer = () => {
     secondsEl.textContent = seconds;
   }
 };
+
+resetButton.addEventListener("click", () => {
+  clearInterval(interval);
+  tensEl.textContent = "00";
+  secondsEl.textContent = "00";
+});

@@ -14,12 +14,18 @@ let secondsPass = 0;
 startButton.addEventListener("click", (e) => {
   userInput = userInputEl.value;
 
-  // converting minutes to seconds
-  secondsPass = userInput * 60;
+  if (isNaN(userInput)) {
+    alert("Enter Valid Number");
+  } else {
+    // converting minutes to seconds
+    secondsPass = userInput * 60;
 
-  clearInterval(interval);
-  interval = setInterval(startTimer, 1000);
-  // startTimer(userInput);
+    clearInterval(interval);
+    interval = setInterval(startTimer, 1000);
+    // startTimer(userInput);
+  }
+
+  // console.log(isNaN(userInput));
 });
 
 // timer function
