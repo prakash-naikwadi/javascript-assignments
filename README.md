@@ -21,6 +21,11 @@ This repository contains projects given us as an assignment into **"JavaScript F
 
 <br>
 
+## 🛑 JS Projects Word File 🛑
+### 📌 **Link: (don't forget to check readme also)** <a href="https://github.com/prakash-naikwadi/javascript-assignments/tree/main/javascript-projects-word-file">**Visit Now** 🚀</a>
+
+<br>
+
 ## 📬 Connect With Me
 
 - **LinkedIn** - [Prakash Naikwadi](https://www.linkedin.com/in/prakash-naikwadi/)
