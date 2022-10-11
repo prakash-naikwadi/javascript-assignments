@@ -2,6 +2,9 @@
 const textareaEl = document.querySelector("#textarea");
 const statEl = document.querySelector("#stat");
 
+const wordsCountEl = document.querySelector(".words-count");
+const charactersCountEl = document.querySelector(".characters-count");
+
 let text = "";
 let wordCount = 0;
 
@@ -14,7 +17,10 @@ textareaEl.addEventListener("keyup", (e) => {
 
   wordCount = countWords(text);
 
-  statEl.textContent = `You've written ${wordCount} words and ${text.length} characters.`;
+  // statEl.textContent = `You've written ${wordCount} words and ${text.length} characters.`;
+
+  wordsCountEl.textContent = `${wordCount} words`;
+  charactersCountEl.textContent = `${text.length} characters`;
 });
 
 // counting words function
