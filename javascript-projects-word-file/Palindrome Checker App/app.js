@@ -3,11 +3,16 @@ const inputTextEl = document.getElementById("text");
 const resultEl = document.querySelector(".result");
 const checkedBtnEl = document.querySelector(".check-btn");
 
+const modalEl = document.getElementById("modal");
+const modalText = document.querySelector(".modal-text");
+const modalBtn = document.getElementById("modal-btn");
+
 checkedBtnEl.addEventListener("click", (e) => {
   let inputValue = getInputValue();
   console.log(inputValue);
 
-  resultEl.textContent = checkPalindrome(inputValue);
+  modalText.textContent = checkPalindrome(inputValue);
+  modalEl.style.display = "block";
 });
 
 const getInputValue = () => {
@@ -34,3 +39,7 @@ function checkPalindrome(string) {
     return "It is not a palindrome";
   }
 }
+
+modalBtn.addEventListener("click", () => {
+  modalEl.style.display = "none";
+});
