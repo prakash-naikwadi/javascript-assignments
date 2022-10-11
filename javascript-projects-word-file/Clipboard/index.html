@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap Links -->
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- scripts -->
+  <script src="./app.js" defer></script>
+  <title>Clipboard</title>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal" id="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button id="modal-btn" type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Code -->
+  <div class="container-md d-flex justify-content-center">
+    <h1 class="text-muted">Copy to Clipboard</h1>
+  </div>
+  <form id="form" class="container-md d-flex p-2 position-absolute top-50 start-50 translate-middle">
+    <div class="input-group mb-3 ">
+      <input type="text" class="form-control" placeholder="Enter Data" aria-label="Enter Data"
+        aria-describedby="button-addon2">
+      <button class="btn btn-primary" type="submit" id="button-addon2">Submit</button>
+    </div>
+  </form>
+
+</body>
+
+</html>
