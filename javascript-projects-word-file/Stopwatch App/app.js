@@ -48,4 +48,6 @@ resetButton.addEventListener("click", () => {
   clearInterval(interval);
   tensEl.textContent = "00";
   secondsEl.textContent = "00";
+  tens = 0;
+  seconds = 0;
 });
