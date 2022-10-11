@@ -18,6 +18,8 @@ numberButtonsArray.map((item) => {
   item.addEventListener("click", (e) => {
     console.log(e.target.innerText);
 
+    if (displayScreen.innerText == 0) displayScreen.innerText = "";
+
     if (clearErrorFlag) {
       displayScreen.innerText = "";
       clearErrorFlag = false;
@@ -39,7 +41,7 @@ dotButton.addEventListener("click", (e) => {
 });
 
 clearButton.addEventListener("click", (e) => {
-  displayScreen.innerText = "";
+  displayScreen.innerText = "0";
 });
 
 equalsOperator.addEventListener("click", (e) => {
